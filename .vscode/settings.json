@@ -1,0 +1,19 @@
+{"tailwindCSS.includeLanguages": {
+    "html": "html",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "vue": "vue",
+    "css": "css"
+},
+"files.associations": {
+  "*.css": "tailwindcss"
+},
+"editor.quickSuggestions": {
+  "strings": "on"
+},
+"tailwindCSS.classAttributes": ["class", "ui", "className"],
+"tailwindCSS.experimental.classRegex": [
+  ["ui:\\s*{([^)]*)\\s*}", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+]
+
+}
